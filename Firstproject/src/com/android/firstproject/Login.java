@@ -71,10 +71,10 @@ public class Login extends Activity implements OnClickListener {
 		case R.id.login:
 			new AttemptLogin().execute();
 			break;
-		//case R.id.register:
-			//Intent i = new Intent(this, Register.class);
-			//startActivity(i);
-			//break;
+		case R.id.register:
+			Intent i = new Intent(this, Register.class);
+			startActivity(i);
+			break;
 			
 		default:
 				break;
